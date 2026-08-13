@@ -191,9 +191,9 @@ re-proving them in a third-party foundational assistant.
 
 Important experiment branches:
 
-- [general finite graphop and bofop certificates](https://github.com/MachineLearning-Nerd/icml26-repro-tRsnpaRO0m-a-graphop-analysis-of-graph-neural-networks-on-sparse-graphs-generalization/tree/orx/general-finite-graphop-and-bofop-certificates)
-- [constructive MPNN universal approximation](https://github.com/MachineLearning-Nerd/icml26-repro-tRsnpaRO0m-a-graphop-analysis-of-graph-neural-networks-on-sparse-graphs-generalization/tree/orx/constructive-mpnn-universal-approximation-eviden)
-- [general probability-space proof certificates](https://github.com/MachineLearning-Nerd/icml26-repro-tRsnpaRO0m-a-graphop-analysis-of-graph-neural-networks-on-sparse-graphs-generalization/tree/orx/general-probability-space-proof-certificates)
+- [general finite graphop and bofop certificates](https://github.com/MachineLearning-Nerd/icml26-graphop-sparse-gnn/tree/audit/claims1-2-finite-certificates)
+- [constructive MPNN universal approximation](https://github.com/MachineLearning-Nerd/icml26-graphop-sparse-gnn/tree/audit/claim5-mpnn-approximation)
+- [general probability-space proof certificates](https://github.com/MachineLearning-Nerd/icml26-graphop-sparse-gnn/tree/audit/claims1-2-general-proof)
 
 Current live score: **9/12**. Conservative projected range:
 **9–12/12**. Best-supported possible score: **12/12 forecast**, pending a
