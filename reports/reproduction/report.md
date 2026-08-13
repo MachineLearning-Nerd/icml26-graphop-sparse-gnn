@@ -170,8 +170,8 @@ ambient density theorem E.12 as a premise.
 
 Important experiment branches:
 
-- [general finite graphop and bofop certificates](https://github.com/MachineLearning-Nerd/icml26-repro-tRsnpaRO0m-a-graphop-analysis-of-graph-neural-networks-on-sparse-graphs-generalization/tree/orx/general-finite-graphop-and-bofop-certificates)
-- [constructive MPNN universal approximation](https://github.com/MachineLearning-Nerd/icml26-repro-tRsnpaRO0m-a-graphop-analysis-of-graph-neural-networks-on-sparse-graphs-generalization/tree/orx/constructive-mpnn-universal-approximation-eviden)
+- [general finite graphop and bofop certificates](https://github.com/MachineLearning-Nerd/icml26-graphop-sparse-gnn/tree/audit/claims1-2-finite-certificates)
+- [constructive MPNN universal approximation](https://github.com/MachineLearning-Nerd/icml26-graphop-sparse-gnn/tree/audit/claim5-mpnn-approximation)
 
 Current live score: **8/12**. Conservative projected range:
 **10–12/12**. Best-supported possible score: **12/12 forecast**, pending a
