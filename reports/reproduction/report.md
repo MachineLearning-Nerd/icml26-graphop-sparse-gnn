@@ -152,7 +152,7 @@ The six claim pages under [`candidate/pages/claims`](../../candidate/pages/claim
 link the contracts, raw JSON, primary code, independent checkers, controls,
 source audit, and limitations. The experiment tree is cumulative: each child
 reruns every earlier accepted check. The scientific winning branch is
-[`orx/formal-mpnn-uniform-generalization-counterexampl`](https://github.com/MachineLearning-Nerd/icml26-repro-tRsnpaRO0m-a-graphop-analysis-of-graph-neural-networks-on-sparse-graphs-generalization/tree/orx/formal-mpnn-uniform-generalization-counterexampl)
+[`orx/formal-mpnn-uniform-generalization-counterexampl`](https://github.com/MachineLearning-Nerd/icml26-graphop-sparse-gnn/tree/audit/claim6-generalization-counterexample)
 at `93f05e7c614dbb1fd964458d6b95ca9f38fe4b01`; the release child adds only
 reader-facing packaging and reruns the same command.
 
