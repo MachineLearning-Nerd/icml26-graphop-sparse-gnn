@@ -26,7 +26,7 @@
     "github": "https://github.com/MachineLearning-Nerd/icml26-graphop-sparse-gnn",
     "old_slug": "icml26-repro-tRsnpaRO0m-a-graphop-analysis-of-graph-neural-networks-on-sparse-graphs-generalization",
     "branches": 14,
-    "expected_reachable_commits": 41,
+    "expected_reachable_commits": 42,
     "pre_normalization_head": "9839c66da6866184d181f144b58f65bcf9b00840",
     "recovery_bundle_sha256": "e40da981d0ef097aa8b5852253956b79ae1e453ff72a7e37a0ec7f1ba6209d59"
   },

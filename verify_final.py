@@ -29,7 +29,7 @@ EXPECTED_BRANCHES = {
     "release/general-proof-candidate",
     "release/strengthened-evidence",
 }
-EXPECTED_COMMITS = 41
+EXPECTED_COMMITS = 42
 CANONICAL_IDENTITY = (
     "MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>"
 )

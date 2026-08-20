@@ -39,6 +39,8 @@
     "release/space_upload/logbook.json",
     "release/space_upload/pages/current/index.md",
     "release/space_upload/pages/current/release-report.md",
+    "release/space_upload/pages/index.md",
+    "release/space_upload/pages/overview/page.md",
     "release/space_upload/pages/current/blind-review.md",
     "release/space_upload/pages/current/command-ledger.md",
     "release/space_upload/pages/claims/claim-1.md",
@@ -105,4 +107,3 @@
     "author_endorsement_claimed": false
   }
 }
-

@@ -62,6 +62,14 @@
 .openresearch/artifacts/source/live_verdict_9of12.json
 .openresearch/artifacts/source/live_verdict_record.json
 .openresearch/artifacts/source/paper_source_audit.md
+.gitattributes
+INDEX.md
+bucket-icon.svg
+index.html
+logbook.css
+logbook.js
+protected-binary-assets.txt
+protected-sha256-manifest.txt
 README.md
 code/graphop_repro/__init__.py
 code/graphop_repro/claims/__init__.py
@@ -735,6 +743,8 @@ pages/current/blind-review.md
 pages/current/command-ledger.md
 pages/current/index.md
 pages/current/release-report.md
+pages/index.md
+pages/overview/page.md
 pyproject.toml
 reports/reproduction/images/generalization.svg
 reports/reproduction/images/graphop-examples.svg
@@ -745,5 +755,9 @@ reports/reproduction/report.md
 reproduction/pyproject.toml
 reproduction/uv.lock
 sha256-manifest.txt
+style.css
+trackio-logo-light.png
+trackio-logo.png
+trackio-wordmark-dark.png
 upload-allowlist.txt
 uv.lock
