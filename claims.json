@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "paper": {
+    "title": "A Graphop Analysis of Graph Neural Networks on Sparse Graphs: Generalization and Universal Approximation",
+    "arxiv": "2602.08785",
+    "source_version": "arXiv:2602.08785v1, retrieved 2026-07-28",
+    "authors": [
+      "Ofek Amran",
+      "Tom Gilat",
+      "Ron Levie"
+    ],
+    "source_sha256": "ae8d8f620023d94024494817d799bbd52617d2dd0eca282e29a8cab00e2dc3ca"
+  },
+  "overall_status": "PARTIAL_C1_C2_C5_VERIFIED_C3_C4_C6_FALSIFIED_HISTORICAL_SCORE_9_OF_12_NO_CURRENT_SCORE",
+  "claims": [
+    {
+      "id": "C1",
+      "name": "graphop_axioms",
+      "status": "VERIFIED_SCOPED",
+      "confidence": "MEDIUM",
+      "paper_anchor": "Definition 3.1, HTML anchor #S3.Thmtheorem1",
+      "imported_claim": "Graphops are self-adjoint and positivity-preserving L-infinity to L1 operators.",
+      "production": [
+        ".openresearch/artifacts/claim_1/claim_contract.json",
+        ".openresearch/artifacts/claim_1/general_proof_certificate.json",
+        ".openresearch/artifacts/claim_1/general_checker_output.json",
+        ".openresearch/artifacts/claim_1/raw_results.json",
+        ".openresearch/artifacts/claim_1/source_audit.md"
+      ],
+      "controls": [
+        ".openresearch/artifacts/claim_1/negative_control_output.json",
+        "asymmetric positive matrix",
+        "symmetric matrix with a negative edge"
+      ],
+      "scope": "Arbitrary admissible symmetric nonnegative kernels, all finite atomic spaces, an uncountable singular circle graphing, and 34 family regressions; Fubini and integral monotonicity are explicit trust lemmas.",
+      "metrics": {
+        "finite_measures_checked": 2,
+        "finite_matrices_checked": 162,
+        "criterion_equivalences_checked": 324,
+        "family_instances": 34,
+        "certified_operator_cells": 448593904
+      }
+    },
+    {
+      "id": "C2",
+      "name": "bofop_bounded_unique_fibers",
+      "status": "VERIFIED_SCOPED",
+      "confidence": "MEDIUM",
+      "paper_anchor": "Theorem 3.3, HTML anchor #S3.Thmtheorem3",
+      "imported_claim": "Every bofop has unique measurable fibers and their essential mass equals both operator norms.",
+      "production": [
+        ".openresearch/artifacts/claim_2/claim_contract.json",
+        ".openresearch/artifacts/claim_2/general_proof_certificate.json",
+        ".openresearch/artifacts/claim_2/general_checker_output.json",
+        ".openresearch/artifacts/claim_2/raw_results.json",
+        ".openresearch/artifacts/claim_2/source_audit.md"
+      ],
+      "controls": [
+        ".openresearch/artifacts/claim_2/negative_control_output.json",
+        "countable diagonal operator with unbounded fibers"
+      ],
+      "scope": "Standard-Borel joint-measure and disintegration certificate plus finite, countable, uncountable, and 34-family evidence; standard measure lemmas remain trusted.",
+      "metrics": {
+        "finite_measures_checked": 2,
+        "finite_matrices_checked": 162,
+        "criterion_equivalences_checked": 324,
+        "family_instances": 34,
+        "unbounded_fiber_control_rejected": true
+      }
+    },
+    {
+      "id": "C3",
+      "name": "theorem_4_1_uniform_output_constant",
+      "status": "FALSIFIED_SCOPED",
+      "confidence": "MEDIUM",
+      "paper_anchor": "Theorem 4.1, HTML anchor #S4.Thmtheorem1",
+      "imported_claim": "The output constant depends only on layer count L, Lipschitz bound D, and bofop norm bound r.",
+      "production": [
+        ".openresearch/artifacts/claim_3/claim_contract.json",
+        ".openresearch/artifacts/claim_3/raw_results.json",
+        ".openresearch/artifacts/claim_3/checker_output.json",
+        ".openresearch/artifacts/claim_3/source_audit.md"
+      ],
+      "controls": [
+        ".openresearch/artifacts/claim_3/negative_control_output.json",
+        "added initial-offset bound rejects the family"
+      ],
+      "scope": "Formal MP_D permits unbounded offsets; the paper’s prose range discussion is recorded as an interpretation risk.",
+      "metrics": {
+        "input_action_metric_upper_bound": 8,
+        "output_gap": "M",
+        "adversarial_choice": "M=8*C+1",
+        "finite_constant_sweep_checks": 8
+      }
+    },
+    {
+      "id": "C4",
+      "name": "corollary_5_3_strict_subset",
+      "status": "FALSIFIED_SCOPED",
+      "confidence": "HIGH",
+      "paper_anchor": "Corollary 5.3, HTML anchor #S5.Thmtheorem3",
+      "imported_claim": "For every L in N_0 and r>0, Gamma_L(BF_d^r) is compact and a proper subset of P(H^L).",
+      "production": [
+        ".openresearch/artifacts/claim_4/claim_contract.json",
+        ".openresearch/artifacts/claim_4/raw_results.json",
+        ".openresearch/artifacts/claim_4/checker_output.json",
+        ".openresearch/artifacts/claim_4/source_audit.md"
+      ],
+      "controls": [
+        ".openresearch/artifacts/claim_4/negative_control_output.json",
+        "depth-one mutation rejects the depth-zero construction"
+      ],
+      "scope": "Falsifies the strict-subset clause at L=0; the compactness clause is not rejected.",
+      "metrics": {
+        "quantified_depth_includes_zero": true,
+        "arbitrary_probability_measure_realized": true,
+        "gamma_zero_equals_full_probability_space": true,
+        "finite_grid_probability_measures": 15
+      }
+    },
+    {
+      "id": "C5",
+      "name": "theorem_M_1_universal_approximation",
+      "status": "VERIFIED_SCOPED",
+      "confidence": "MEDIUM",
+      "paper_anchor": "Theorem M.1, HTML anchor #A13.Thmtheorem1",
+      "imported_claim": "For every fixed L, continuous targets on the realizable bofop-DIDM quotient are uniformly approximated by scalar L-layer MPNNs.",
+      "production": [
+        ".openresearch/artifacts/claim_5/claim_contract.json",
+        ".openresearch/artifacts/claim_5/general_proof_certificate.json",
+        ".openresearch/artifacts/claim_5/general_checker_output.json",
+        ".openresearch/artifacts/claim_5/raw_results.json",
+        ".openresearch/artifacts/claim_5/source_audit.md"
+      ],
+      "controls": [
+        ".openresearch/artifacts/claim_5/negative_control_output.json",
+        "remove message passing",
+        "shift labels",
+        "discontinuous-target control"
+      ],
+      "scope": "Independent DIDM separation, algebra closure, Stone–Weierstrass route, independent readout, continuum, and actual MPNN evidence; standard functional-analysis lemmas remain trusted.",
+      "metrics": {
+        "independent_readout_rows": 800,
+        "first_knot_count_meeting_0_04": 17,
+        "independent_readout_max_error": 0.019023154804,
+        "continuum_grid_points": 8193,
+        "continuum_max_error": 0.000305914799,
+        "discontinuous_target_uniform_lower_bound": 0.5
+      }
+    },
+    {
+      "id": "C6",
+      "name": "theorem_M_5_uniform_generalization",
+      "status": "FALSIFIED_SCOPED",
+      "confidence": "MEDIUM",
+      "paper_anchor": "Theorem M.5, HTML anchor #A13.Thmtheorem5",
+      "imported_claim": "The formal MP_D class has a vanishing uniform empirical-to-statistical risk gap.",
+      "production": [
+        ".openresearch/artifacts/claim_6/claim_contract.json",
+        ".openresearch/artifacts/claim_6/raw_results.json",
+        ".openresearch/artifacts/claim_6/checker_output.json",
+        ".openresearch/artifacts/claim_6/source_audit.md"
+      ],
+      "controls": [
+        ".openresearch/artifacts/claim_6/negative_control_output.json",
+        "uniform offset envelope restores a finite loss envelope"
+      ],
+      "scope": "Exact two-point formal counterexample; the result follows the unrestricted-offset MP_D definition and shares the formal-versus-prose risk of Claim 3.",
+      "metrics": {
+        "sample_sizes_checked": 9,
+        "odd_sample_sizes_sure_infinite_supremum": true,
+        "even_sample_bad_probability_at_least_half": true,
+        "bad_probability_limit": 1
+      }
+    }
+  ]
+}
+

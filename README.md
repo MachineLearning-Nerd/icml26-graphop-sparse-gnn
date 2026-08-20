@@ -12,6 +12,12 @@ The paper develops a graphop-based framework for studying message-passing graph 
 
 The latest evaluator-visible revision is scored **9/12**: Claims 1, 2, and 5 received toy or rigorous credit, while Claims 3, 4, and 6 were accepted as full-credit falsifications. The independent audit records **three verified and three falsified claims**. It added arbitrary probability-space proof certificates, an uncountable singular sparse graphing, an independent Stone–Weierstrass route, an actual sparse-graph MPNN benchmark, and exact counterexamples. The current score and the 9–12 forecast are historical evidence, not a new live judge result.
 
+The standardized dossier is available in [STATUS.md](STATUS.md),
+[CLAIM_EVIDENCE.md](CLAIM_EVIDENCE.md), [SOURCE_AUDIT.md](SOURCE_AUDIT.md),
+[ENVIRONMENT.md](ENVIRONMENT.md), and [REPORT.md](REPORT.md). The historical
+9/12 result remains separate from the local audit, and no new score or author
+endorsement is claimed.
+
 ## Claim and evidence ledger
 
 | Claim | Paper result | Reproduction assessment | How the result is produced |
@@ -100,4 +106,4 @@ Thank you to Ofek Amran, Tom Gilat, and Ron Levie for developing a framework tha
 
 ## Attribution and scope
 
-The repository is maintained by [MachineLearning-Nerd](https://github.com/MachineLearning-Nerd). Commits in the normalized history use the `MachineLearning-Nerd` GitHub identity. The original repository slug was `icml26-repro-tRsnpaRO0m-a-graphop-analysis-of-graph-neural-networks-on-sparse-graphs-generalization`; it was renamed to `icml26-graphop-sparse-gnn`. The evaluator's historical [DineshAI/tRsnpaRO0m Space](https://huggingface.co/spaces/DineshAI/tRsnpaRO0m) remains referenced by protected release metadata and is intentionally not renamed by this GitHub cleanup.
+The repository is maintained by [MachineLearning-Nerd](https://github.com/MachineLearning-Nerd). The normalized commit identity is `MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>`. The original repository slug was `icml26-repro-tRsnpaRO0m-a-graphop-analysis-of-graph-neural-networks-on-sparse-graphs-generalization`; it was renamed to `icml26-graphop-sparse-gnn`. The evaluator's historical [DineshAI/tRsnpaRO0m Space](https://huggingface.co/spaces/DineshAI/tRsnpaRO0m) remains referenced by protected release metadata and is intentionally not renamed by this GitHub cleanup.

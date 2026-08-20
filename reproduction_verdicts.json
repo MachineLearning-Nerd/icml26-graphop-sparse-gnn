@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "paper": "2602.08785",
+  "source_sha256": "ae8d8f620023d94024494817d799bbd52617d2dd0eca282e29a8cab00e2dc3ca",
+  "overall_verdict": "PARTIAL_C1_C2_C5_VERIFIED_C3_C4_C6_FALSIFIED",
+  "claim_statuses": {
+    "C1": "VERIFIED_SCOPED",
+    "C2": "VERIFIED_SCOPED",
+    "C3": "FALSIFIED_SCOPED",
+    "C4": "FALSIFIED_SCOPED",
+    "C5": "VERIFIED_SCOPED",
+    "C6": "FALSIFIED_SCOPED"
+  },
+  "evidence": {
+    "c1_family_instances": 34,
+    "c1_certified_operator_cells": 448593904,
+    "c2_unbounded_fiber_control_rejected": true,
+    "c3_metric_bound": 8,
+    "c4_gamma_zero_full_space": true,
+    "c5_independent_readout_rows": 800,
+    "c5_continuum_grid_points": 8193,
+    "c6_bad_probability_limit": 1
+  },
+  "historical_external_result": {
+    "latest_live_judge_score": "9/12",
+    "latest_judged_revision": "3ed60dc4ac62b111cb7ca0ef7c752586a10aa8b5",
+    "latest_judged_at": "2026-07-29T00:41:37+00:00",
+    "earlier_live_judge_score": "8/12",
+    "earlier_judged_revision": "dbfa7ea0de058ad35fa8bab58684306bd9ac7e7c",
+    "candidate_space": "DineshAI/tRsnpaRO0m",
+    "current_score_claim": false
+  },
+  "publication": {
+    "publication_allowed": false,
+    "author_endorsement_claimed": false
+  },
+  "boundary": "Claims 1, 2, and 5 are scoped verified evidence packages with explicit standard-mathematics trust boundaries. Claims 3, 4, and 6 are scoped formal counterexamples. No new judge score is claimed."
+}
+

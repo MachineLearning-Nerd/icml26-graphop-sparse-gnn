@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this audit, cite the original paper and this repository."
+type: software
+title: "Independent audit of A Graphop Analysis of Graph Neural Networks on Sparse Graphs"
+version: "1.0.0"
+date-released: 2026-08-20
+authors:
+  - name: MachineLearning-Nerd
+repository-code: "https://github.com/MachineLearning-Nerd/icml26-graphop-sparse-gnn"
+url: "https://github.com/MachineLearning-Nerd/icml26-graphop-sparse-gnn"
+abstract: "Scoped claim-by-claim audit of graphop axioms, bounded fibers, universal approximation, and generalization for sparse-graph neural networks."
+keywords:
+  - graphops
+  - graph neural networks
+  - sparse graphs
+  - universal approximation
+  - generalization
+  - reproduction
+preferred-citation:
+  type: article
+  title: "A Graphop Analysis of Graph Neural Networks on Sparse Graphs: Generalization and Universal Approximation"
+  authors:
+    - family-names: Amran
+      given-names: Ofek
+    - family-names: Gilat
+      given-names: Tom
+    - family-names: Levie
+      given-names: Ron
+  year: 2026
+  url: "https://arxiv.org/abs/2602.08785"
